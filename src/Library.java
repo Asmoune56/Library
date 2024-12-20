@@ -9,6 +9,7 @@ public class Library {
     }
     void affichage () {
         for (Book livre : books)
+
         {
             System.out.println(livre);
 

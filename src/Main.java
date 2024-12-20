@@ -1,23 +1,24 @@
 import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
       Library library = new Library();
         Scanner sc = new Scanner(System.in);
         int choice;
         do {
-
-
+        System.out.println("============== Menue ==============");
         System.out.println("1 add");
         System.out.println("2 display");
         System.out.println("3 rechercher");
         System.out.println("4 Update");
 
 
-            System.out.println("0 exit");
+        System.out.println("0 exit");
+        System.out.print("Choose an operation from menu : ");
+
+
         choice = sc.nextInt();
-
-
         switch (choice)
         {
             case 1:
@@ -27,7 +28,7 @@ public class Main {
                 String title = sc.next();
                 System.out.println("enter author :");
                 String author = sc.next();
-                System.out.println("enter desponebility -true : false :");
+                System.out.println("enter desponebility (true / false) :");
 
                 boolean desponebility = sc.nextBoolean();
 
