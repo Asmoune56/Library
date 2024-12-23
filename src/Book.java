@@ -46,9 +46,8 @@
      public String toString() {
          return "Your books" +"\n" +
                  "titre = " + titre + "\n" +
-                 ", autho r= " + author +  "\n" +
-                 ", ISBN = " + ISBN +  "\n" +
-                 ", desponible = " + desponible+  "\n" +"==========================================="
-                 ;
+                 " author = " + author +  "\n" +
+                 " ISBN = " + ISBN +  "\n" +
+                 " desponible = " + desponible+  "\n" +"===========================================";
      }
 }
